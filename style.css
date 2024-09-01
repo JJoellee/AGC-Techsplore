@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #CC1B4E;
+    --secondary-color: #004AAD;
+    --background-color: #FFFFFF;
+    --text-color: #333333;
+    --light-gray: #f5f5f5;
+    --dark-gray: #222222;
+    --accent-color: #FF6F61;
+    --transition-speed: 0.3s;
+    --max-width: 1200px;
+    --white-color: #fff;
+    --white-color-2: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:  var(--light-gray)
+}
+
+header {
+    background-color:var(--primary-color);
+    color: var(--white-color);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filter-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.material-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.material-item {
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color-2);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.material-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.material-item iframe, .material-item pre {
+    width: 100%;
+    height: 600px;
+    border: 1px solid var(--white-color-2);
+    margin-top: 10px;
+}
+
+
+.material-item {
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color-2);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.material-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.material-item iframe, .material-item pre {
+    width: 100%;
+    height: 600px;
+    border: 1px solid var(--white-color-2);
+    margin-top: 10px;
+}
+
+.material-item .download-button {
+    display: block;
+    width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.material-item .download-button:hover {
+    background-color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--dark-gray);
+    color: var(--white-color);
+}
